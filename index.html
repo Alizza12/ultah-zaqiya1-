@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ucapan Ulang Tahun</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Selamat Ulang Tahun, Zaqiya!! 🎉</h1>
+    <p id="message">Semoga panjang umur, sehat selalu, dan semua keinginan terkabul! 🥳</p>
+    <button onclick="showBalloons()">Tampilkan Balon & Confetti 🎈</button>
+    <div id="balloons" class="hidden">🎈🎈🎈🎈🎈🎈🎈</div>
+  </div>
+
+  <!-- Musik latar -->
+  <audio id="bg-music" src="assets/bg-music.mp3" loop></audio>
+
+  <!-- Confetti canvas -->
+  <canvas id="confetti-canvas" class="hidden"></canvas>
+
+  <!-- Script -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
